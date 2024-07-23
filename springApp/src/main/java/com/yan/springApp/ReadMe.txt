@@ -9,3 +9,5 @@
  row to exclude defined pages. Auto generated password located in the console
 
     6th lesson - added values "@Value("${my.City}")", and edited method for receiving values
+
+    7th lesson - servers port changing "server.port=9090 and start page "server.servlet.context-path=/testapp"
