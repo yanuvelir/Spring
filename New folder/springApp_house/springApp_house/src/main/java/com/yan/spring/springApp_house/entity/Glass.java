@@ -9,8 +9,16 @@ public class Glass {
     @Value("Spring boot glass")
     private String glassName;
 
-    public Glass(String glassName) {
+    public Glass() {
 
         this.glassName  = glassName;
+    }
+
+    public String getGlassName() {
+        return glassName;
+    }
+
+    public void setGlassName(String glassName) {
+        this.glassName = glassName;
     }
 }
