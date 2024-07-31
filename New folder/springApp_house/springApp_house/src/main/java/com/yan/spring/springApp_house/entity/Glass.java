@@ -10,7 +10,6 @@ public class Glass {
     private String glassName;
 
     public Glass() {
-        System.out.println("My Glass");
 
         this.glassName  = glassName;
     }

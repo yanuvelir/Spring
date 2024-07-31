@@ -11,7 +11,6 @@ public class Window {
 
     @Autowired
     public Window(Glass glass){
-        System.out.println("My Window");
 
         this.glass = glass;
     }

@@ -10,8 +10,6 @@ public class House {
 
     @Autowired
     public House(Window window){
-        System.out.println("My House");
-
 
         this.window = window;
     }
